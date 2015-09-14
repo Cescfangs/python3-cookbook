@@ -79,7 +79,7 @@ defaultdict的一个特征是它会自动初始化每个key刚开始对应的值
 .. code-block:: python
 
     d = defaultdict(list)
-    for key, value in pairs:
+    for key, value in pairs.items():
         d[key].append(value)
 
 这一小节所讨论的问题跟数据处理中的记录归类问题有大的关联。可以参考1.15小节的例子。
